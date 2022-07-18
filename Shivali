@@ -1,0 +1,227 @@
+<!Document html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap</title>
+    <!--botstrap css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+</head>
+<body>
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#"><img src="https://learnandbuild.in/wp-content/uploads/2022/02/Asset-1-1.png" height="50px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto ">
+            <li class="nav-item active ">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">about us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Courses
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Web Development</a>
+                <a class="dropdown-item" href="#">Android Development</a>
+                <a class="dropdown-item" href="#">AI/ML</a>
+                <a class="dropdown-item" href="#">Python</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">C/C++</a>
+                <a class="dropdown-item" href="#">Java Core</a>
+                <a class="dropdown-item" href="#">R programming</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact Us</a>
+            </li>
+          </ul>
+          <!--
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>-->
+        </div>
+      </nav>
+      <div>
+             <img src="homepage-herobanner.webp" class="img-fluid">
+      </img>
+      <p class="text-center mt-4 text-uppercase fs-1 fw-bold" >our Growing Family</p>
+      <div class="d-flex justify-content-around">
+        <div class="p-2"><img src="https://learnandbuild.in/wp-content/themes/twentytwentyone/images/technology-experts-icon.svg"><h4>Technology experts</h4></div>
+        <div class="p-2"><img src="https://learnandbuild.in/wp-content/themes/twentytwentyone/images/institution-tie-ups-icon.svg"><h4>Institution tie-up</h4></div>
+        <div class="p-2"><img src="https://learnandbuild.in/wp-content/themes/twentytwentyone/images/hiring-partners-icon.svg"><h4>Hiring partners</h4></div>
+      </div>
+      <p class="text-left mt-4 text-uppercase fs-2 fw-bold" >Top Recommendations</p>
+     
+      <div class="album py-5 bg-light">
+        <div class="container">
+    
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+                 <div class="card" style="width: 18rem;">
+                <img src="https://learnandbuild.in/wp-content/uploads/2022/05/summer-internship-1024x405.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">LnB internship test</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    </div>
+                    <a href="#" class="btn btn-primary">ENROLL</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="width: 18rem;">
+                <img src="https://learnandbuild.in/wp-content/uploads/2022/04/dwai-logo.webp" class="card-img-top" alt="...">
+               
+                <div class="card-body">
+                  <h5 class="card-title">DATA SCIENCE</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    
+                    </div>
+                    <a href="#" class="btn btn-primary">ENROLL</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="width: 18rem;">
+                <img src="https://learnandbuild.in/wp-content/uploads/2022/04/aspire_fullstack-development.jpg" class="card-img-top" alt="...">
+               
+                <div class="card-body">
+                  <h5 class="card-title">FULL STACK DEVELOPMENT</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                     
+                    </div>
+                    <a href="#" class="btn btn-primary">ENROLL</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col">
+              <div class="card" style="width: 18rem;">
+                <img src="https://learnandbuild.in/wp-content/uploads/2022/04/pre_cloud-hosted-ai-services-1.jpg" class="card-img-top" alt="...">
+               
+                <div class="card-body">
+                  <h5 class="card-title">CLOUD COMPUTING</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                     
+                    </div>
+                    <a href="#" class="btn btn-primary">ENROLL</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="width: 18rem;">
+                <img src="https://learnandbuild.in/wp-content/uploads/2022/04/full-stack-booster-logo.jpeg" class="card-img-top" alt="...">
+               
+                <div class="card-body">
+                  <h5 class="card-title">HTML BEGINEER</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                     
+                    </div>
+                    <a href="#" class="btn btn-primary">ENROLL</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="width: 18rem;">
+                <img src="https://learnandbuild.in/wp-content/uploads/2022/04/aspire_fullstack-development.jpg" class="card-img-top" alt="...">
+               
+                <div class="card-body">
+                  <h5 class="card-title">R PROGRAMMING</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                     
+                    </div>
+                    <a href="#" class="btn btn-primary">ENROLL</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+           
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <p class="text-center mt-4 text-uppercase fs-1 fw-bold" >OUR HIRING PARTNERS</p>
+      
+<div class="d-flex align-items-stretch mt-2">
+  <div><img src="https://learnandbuild.in/wp-content/themes/twentytwentyone/images/partnerslogo-18.jpeg"></div>
+<div><img src="https://learnandbuild.in/wp-content/themes/twentytwentyone/images/partnerslogo-22.jpeg" ></div>
+<div ><img src="https://learnandbuild.in/wp-content/themes/twentytwentyone/images/partnerslogo-5.jpeg"> </div>
+  <div><img src="https://learnandbuild.in/wp-content/themes/twentytwentyone/images/partnerslogo-1.jpeg"></div>
+<div><img src="https://learnandbuild.in/wp-content/themes/twentytwentyone/images/partnerslogo-9.jpeg"></div>
+</div>
+<img src="https://learnandbuild.in/wp-content/themes/twentytwentyone/images/join-community-illustration.svg">
+<div class="letsConnectedLeft p-3 mb-2 bg-info text-white">
+<form >
+  <div class="mt-5">
+  <h3>Lets Connected</h3>
+  <div class="row ">
+    <div class="col ">
+      <input type="text" class="form-control" placeholder="First name">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Last name">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Email address</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  </div>
+ 
+ 
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Message</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary mt-2">Submit</button>
+</form>
+</div>
+</div>
+
+<div class="d-flex flex-column bd-highlight mb-3 mt-4 p-3 mb-2 bg-light text-dark">
+  <h3>Contact Us</h3>
+<div class="p-2 bd-highlight Copy "><img class="float-left" src="https://learnandbuild.in/wp-content/themes/twentytwentyone/images/icon-calls.svg "width="50px" height="50px"><b>CONTACT NUMBER</b><p>8967580000</p></div>
+  <div class="p-2 bd-highlight"><img src="https://learnandbuild.in/wp-content/themes/twentytwentyone/images/icon-email.svg" height="50px" width="50px"><b>EMAIL ID</b><P>lnbcore@gmail.com</P></div>
+  <div class="p-2 bd-highlight"><img src="https://learnandbuild.in/wp-content/themes/twentytwentyone/images/icon-location.svg" height="50px" width="50px"><b>Address</b><p>262 -1st Floor, opposite Pooja Tower, Muktanand Nagar, Gopal Pura Mode, Jaipur, Rajasthan 302018</p></div>
+</div>
+<div class="mt-3 p-3 mb-2 bg-secondary text-white">
+  <img src="https://learnandbuild.in/wp-content/uploads/2022/02/Asset-1-1.png" height="80px" width="80px">
+  <p class="text-white bg-dark">A Product by <span class="text-primary">Techienest Pvt. Ltd.</span></p>
+</div>
